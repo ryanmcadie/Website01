@@ -30,7 +30,8 @@ a{
     color: #333
 }
 
-h1,h2{
+h1,
+h2{
     font-weight: 300;
     line-height: 1.2;
     margin: 10px 0;
@@ -44,11 +45,17 @@ img{
     width: 100%;
 }
 
-code, pre{
+code,
+pre{
     background: #333;
     color: #fff;
     padding: 10px;
 }
+
+.hidden {
+    visibility: hidden;
+    height: 0;
+  }
 
 /* NavBar */
 .navbar{
@@ -202,7 +209,8 @@ code, pre{
 }
 
 /* Features */
-.features-head img, .docs-head img{
+.features-head img,
+.docs-head img{
     width: 200px;
     justify-self: flex-end;
 }
@@ -249,10 +257,25 @@ code, pre{
     font-weight: bold;
 }
 
-
 /* Footer */
 .footer .social a{
     margin: 0 10px;
+}
+
+.fa-github:hover {
+    color: #000000;
+}
+  
+.fa-facebook:hover {
+    color: #1773EA;
+}
+  
+.fa-instagram:hover {
+    color: #B32E87;
+}
+  
+.fa-twitter:hover {
+    color: #1C9CEA;
 }
 
 /* Animations */
@@ -260,6 +283,7 @@ code, pre{
     0% {
         transform: translateX(-100%);
     }
+
     100% {
         transform: translateX(0);
     }
@@ -269,6 +293,7 @@ code, pre{
     0% {
         transform: translateX(100%);
     }
+
     100% {
         transform: translateX(0);
     }
@@ -278,6 +303,7 @@ code, pre{
     0% {
         transform: translateY(-100%);
     }
+
     100% {
         transform: translateX(0);
     }
@@ -287,6 +313,7 @@ code, pre{
     0% {
         transform: translateY(100%);
     }
+
     100% {
         transform: translateX(0);
     }
@@ -331,6 +358,7 @@ code, pre{
     .docs-head{
         text-align: center;
     }
+
     .features-head img,
     .features-sub-head img,
     .docs-head img{
@@ -357,4 +385,8 @@ code, pre{
         padding: 10px;
         background-color: rgba(0,0,0,0.1);
     }
+
+    .showcase-form {
+        width: 300px;
+      }
 }
